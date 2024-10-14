@@ -2,7 +2,7 @@
 Theme Name: 	   NewsTick
 Text Domain: 	   newstick
 Template: 			newsmunch
-Version:            1.0.17
+Version:            1.0.18
 Tested up to:       6.6
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -207,4 +207,8 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 
 .wc-block-components-product-metadata .wc-block-components-product-metadata__description>p {
     font-size: 1.2rem;
+}
+
+.wp-block-woocommerce-empty-mini-cart-contents-block .wc-block-mini-cart__empty-cart-wrapper p strong {
+    font-size: 16px;
 }
