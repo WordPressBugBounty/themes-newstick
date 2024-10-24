@@ -2,7 +2,7 @@
 Theme Name: 	   NewsTick
 Text Domain: 	   newstick
 Template: 			newsmunch
-Version:            1.0.21
+Version:            1.0.22
 Tested up to:       6.6
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -224,4 +224,8 @@ table.wc-block-cart-items .wc-block-components-product-price {
 .wc-block-mini-cart__empty-cart-wrapper .wc-block-mini-cart__shopping-button:hover, 
 .wc-block-mini-cart__empty-cart-wrapper .wc-block-mini-cart__shopping-button:focus {
     color: #fff;
+}
+
+ul.wp-block-page-list a {
+    text-decoration: none;
 }
