@@ -2,7 +2,7 @@
 Theme Name: 	   NewsTick
 Text Domain: 	   newstick
 Template: 			newsmunch
-Version:            1.0.75
+Version:            1.0.76
 Tested up to:       6.8
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -409,4 +409,8 @@ a.wp-block-button__link:focus {
 
 .wp-block-latest-comments {
     padding-left: 0;
+}
+
+.wp-block-latest-comments li a:not(:hover, :focus) {
+    color: var(--dt-secondary-color);
 }
