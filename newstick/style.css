@@ -2,7 +2,7 @@
 Theme Name: 	   NewsTick
 Text Domain: 	   newstick
 Template: 			newsmunch
-Version:            1.0.97
+Version:            1.0.98
 Tested up to:       6.9
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -483,4 +483,8 @@ a.wp-block-button__link:focus {
 
 .wp-block-file a {
     text-decoration: none;
+}
+
+.wp-block-file.has-background {
+    padding: 1rem;
 }
