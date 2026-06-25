@@ -2,7 +2,7 @@
 Theme Name: 	   NewsTick
 Text Domain: 	   newstick
 Template: 			newsmunch
-Version:            1.1.8
+Version:            1.1.9
 Tested up to:       7.0
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -517,4 +517,8 @@ table.wc-block-cart-items .wc-block-cart-items__header th {
 
 .wc-block-customer-account__link {
     text-decoration: none;
+}
+
+.dt_footer .widget.widget_products ins .woocommerce-Price-amount.amount {
+    color:#fff;
 }
